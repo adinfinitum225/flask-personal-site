@@ -1,8 +1,52 @@
-ul {
-
+body{
+		background-color: floralWhite;
+		font-family: gill sans, sans-serif;
 }
 
-li { 
+nav ul{
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+		position: sticky;
+}
+
+.dropdown {
+		position: relative;
+}
+
+.dropdown ul {
+		display: none;
+		min-width: 160px;
+		padding-left: 0px;
+		position: absolute;
+}
+
+.dropdown ul li {
+		margin: 10px;
+}
+
+.dropdown:hover ul {
+		display: flex;
+		flex-direction: column;
+}
+
+li a { 
 	border: 1px solid gray;
-	background-color: lightgray;
+	background-color: #12393D;
+	color: floralWhite;
+	margin: 5px;
+	text-decoration: none;
 }
+
+main {
+		display: flex;
+}
+
+main section {
+		flex: 4;
+}
+
+aside {
+		flex: 1;
+}
+
