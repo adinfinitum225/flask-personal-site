@@ -1,12 +1,26 @@
-body{
-		background-color: floralWhite;
+:root {
+		--bg-color: #FFFAF0 /*Floral White*/;
+		--main-color: #13293D /*Prussian Blue*/;
+		--second-color: #247BA0 /*CG Blue*/;
+		--accent-color: #629365 /*Russian Green*/;
+		--light-text: #FFFAF0 /*Floral White*/;
+		--dark-text: #000000 /*Black*/;
+}
+
+body {
+		background-color: var(--bg-color);
 		font-family: gill sans, sans-serif;
 }
 
-nav ul{
+header h1 {
+		color: var(--main-color);
+}
+
+nav ul {
 		display: flex;
 		list-style: none;
 		justify-content: flex-end;
+		background-color: var(--second-color);
 		position: sticky;
 }
 
@@ -16,26 +30,24 @@ nav ul{
 
 .dropdown ul {
 		display: none;
-		min-width: 160px;
 		padding-left: 0px;
 		position: absolute;
+		left: 0em;
 }
 
 .dropdown ul li {
-		margin: 10px;
 }
 
 .dropdown:hover ul {
-		display: flex;
-		flex-direction: column;
+		display: block;
 }
 
 li a { 
-	border: 1px solid gray;
-	background-color: #12393D;
-	color: floralWhite;
-	margin: 5px;
+	color: var(--light-text);
 	text-decoration: none;
+	display: block;
+	background-color: var(--second-color);
+	padding: 0.5em 2em;
 }
 
 main {
