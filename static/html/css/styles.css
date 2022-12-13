@@ -1,7 +1,7 @@
 :root {
 		--bg-color: #FFFAF0 /*Floral White*/;
-		--main-color: #13293D /*Prussian Blue*/;
-		--second-color: #247BA0 /*CG Blue*/;
+		--main-color: #247BA0 /*CG Blue*/;
+		--second-color: #13293D /*Prussian Blue*/;
 		--accent-color: #629365 /*Russian Green*/;
 		--light-text: #FFFAF0 /*Floral White*/;
 		--dark-text: #000000 /*Black*/;
@@ -20,7 +20,7 @@ nav ul {
 		display: flex;
 		list-style: none;
 		justify-content: flex-end;
-		background-color: var(--second-color);
+		background-color: var(--main-color);
 		position: sticky;
 }
 
@@ -37,7 +37,7 @@ nav ul {
 }
 
 .dropdown ul li a {
-		background-color: var(--main-color);
+		background-color: var(--second-color);
 }
 
 .dropdown:hover ul {
@@ -48,8 +48,15 @@ li a {
 	color: var(--light-text);
 	text-decoration: none;
 	display: block;
-	background-color: var(--second-color);
+	background-color: var(--main-color);
 	padding: 0.5rem 2rem;
+}
+
+
+/* might need to move this higher up */
+li a:hover {
+		/*filter: brightness(1.2);*/
+		background-color: var(--accent-color);
 }
 
 main {
