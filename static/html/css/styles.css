@@ -70,11 +70,15 @@ main {
 		display: flex;
 }
 
+main > * {
+		padding: 10px;
+}
+
 main section {
 		flex: 4;
 }
 
-aside {
+main aside {
 		flex: 1;
 }
 
