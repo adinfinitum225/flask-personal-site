@@ -47,15 +47,36 @@ li a {
 	color: var(--light-text);
 	text-decoration: none;
 	display: block;
-	background-color: var(--main-color);
+	max-width: 100%;
 	padding: 0.5rem 2rem;
 }
 
 /* Change color on hover for main nav items */
-li a:hover {
+li:hover > a {
 		background-color: var(--second-color);
+		box-shadow: 0px 4px 2px var(--second-color);
+		z-index: 1;
 }
 
+.dropdown {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		padding-left: 0px;
+}
+
+.dropdown > ul {
+		position: absolute;
+		top: 100%;
+		padding-left: 0;
+		display: none;
+}
+
+.dropdown:hover > ul {
+		display: block;
+}
+
+/*
 .dropdown {
 		position: relative;
 }
@@ -75,6 +96,7 @@ li a:hover {
 .dropdown:hover ul {
 		display: block;
 }
+*/
 
 /*
  * Float picture left so that paragraph wraps around
