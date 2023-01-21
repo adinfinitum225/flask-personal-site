@@ -19,15 +19,25 @@ body {
 		margin: 0;
 }
 
+h1 {
+		font-stretch: 125%;
+		font-weight: 720;
+}
+
+h2 {
+		font-weight: 450;
+}
+
 header {
 		background-color: var(--second-color);
 		color: var(--light-text);
 		padding: 8px
 }
 
-header h1 {
+header > h1 {
 		color: var(--main-color);
 		font-family: 'Roboto Mono', monospace;
+		font-size: 3em;
 		font-weight: bold;
 }
 
@@ -94,6 +104,12 @@ main section {
 
 main aside {
 		flex: 1;
+}
+
+#portrait {
+		float: left;
+		margin: 8px;
+		border-radius: 10% 30% 50% 70%;
 }
 
 /*
