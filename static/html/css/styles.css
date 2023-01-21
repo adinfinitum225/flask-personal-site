@@ -40,6 +40,7 @@ nav ul {
 		margin: 0;
 		justify-content: flex-end;
 		background-color: var(--main-color);
+		box-shadow: 0px 2px 2px var(--main-color);
 		position: sticky;
 }
 
@@ -54,7 +55,7 @@ li a {
 /* Change color on hover for main nav items */
 li:hover > a {
 		background-color: var(--second-color);
-		box-shadow: 0px 4px 2px var(--second-color);
+		box-shadow: 0px 2px 2px var(--second-color);
 		z-index: 1;
 }
 
@@ -74,36 +75,6 @@ li:hover > a {
 
 .dropdown:hover > ul {
 		display: block;
-}
-
-/*
-.dropdown {
-		position: relative;
-}
-
-.dropdown ul {
-		display: none;
-		padding-left: 0px;
-		position: absolute;
-		left: 0rem;
-		box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
-}
-
-.dropdown ul li a {
-		background-color: var(--second-color);
-}
-
-.dropdown:hover ul {
-		display: block;
-}
-*/
-
-/*
- * Float picture left so that paragraph wraps around
- */
-#portrait {
-		float: left;
-		margin: 5px;
 }
 
 /* 
