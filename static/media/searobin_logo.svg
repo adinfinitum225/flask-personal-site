@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="59.584194mm"
+   height="51.369453mm"
+   viewBox="0 0 59.584194 51.369453"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="searobin_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2863917"
+     inkscape:cx="120.88076"
+     inkscape:cy="117.3826"
+     inkscape:window-width="1600"
+     inkscape:window-height="877"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powermask"
+       id="path-effect2706"
+       is_visible="true"
+       lpeversion="1"
+       uri="#mask-powermask-path-effect2706"
+       invert="false"
+       hide_mask="false"
+       background="true"
+       background_color="#ffffffff" />
+    <rect
+       x="88.498856"
+       y="62.663784"
+       width="148.96391"
+       height="89.598221"
+       id="rect435" />
+    <filter
+       id="mask-powermask-path-effect2688_inverse"
+       inkscape:label="filtermask-powermask-path-effect2688"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect2688_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect2688_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask-powermask-path-effect2706">
+      <path
+         id="mask-powermask-path-effect2706_box"
+         style="fill:#ffffff;fill-opacity:1"
+         d="M -5.1467671,12.895505 H 16.490836 v 24.67555 H -5.1467671 Z" />
+      <g
+         id="g2704"
+         style="fill:#000000"
+         transform="matrix(0.50685355,0,0,0.50685355,-16.588439,9.3137467)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.3072px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.407402;stroke-dasharray:none"
+           x="16.056211"
+           y="37.769211"
+           id="text2698"
+           transform="matrix(1.4071793,0.84111194,0,0.71064148,0,0)"><tspan
+             sodipodi:role="line"
+             id="tspan2696"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.407402;stroke-dasharray:none"
+             x="16.056211"
+             y="37.769211">S</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.146px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.416101;stroke-dasharray:none"
+           x="29.947376"
+           y="108.47861"
+           id="text2702"
+           transform="matrix(1.3841796,-0.79838062,0,0.72244961,0,0)"><tspan
+             sodipodi:role="line"
+             id="tspan2700"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.416101;stroke-dasharray:none"
+             x="29.947376"
+             y="108.47861">R</tspan></text>
+      </g>
+    </mask>
+    <filter
+       id="mask-powermask-path-effect2706_inverse"
+       inkscape:label="filtermask-powermask-path-effect2706"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect2706_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect2706_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.7068193,-2.4080298)">
+    <path
+       sodipodi:type="star"
+       style="fill:#2c89a0;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       id="path553"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="5.6720343"
+       sodipodi:cy="25.23328"
+       sodipodi:r1="11.337775"
+       sodipodi:r2="9.8188009"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 15.490836,30.902168 -9.8188018,5.668887 -9.8188013,-5.668887 0,-11.337775 9.8188014,-5.668888 9.8188017,5.668888 z"
+       transform="matrix(1.9729565,0,0,1.9729565,32.728268,-18.375617)"
+       mask="url(#mask-powermask-path-effect2706)"
+       inkscape:path-effect="#path-effect2706" />
+    <path
+       sodipodi:type="star"
+       style="fill:#0066ff;stroke-width:0.264583"
+       id="path111"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="7.489994"
+       sodipodi:cy="5.0175691"
+       sodipodi:r1="5.8559752"
+       sodipodi:r2="5.0714235"
+       sodipodi:arg1="-0.52359878"
+       sodipodi:arg2="0"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 12.561417,2.0895815 0,5.8559751 -5.0714229,2.9279874 -5.0714233,-2.9279873 0,-5.8559752 5.0714232,-2.92798759 z"
+       transform="matrix(0.91396689,0,0,0.91396689,5.0802094,4.8397788)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#00aa44;stroke-width:0.264583"
+       id="path113"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="14.834551"
+       sodipodi:cy="7.2718387"
+       sodipodi:r1="8.5724468"
+       sodipodi:r2="7.4239569"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 22.258508,11.558062 -7.423957,4.286223 -7.4239569,-4.286223 1e-7,-8.5724468 7.4239568,-4.2862234 7.423957,4.2862235 z"
+       transform="translate(9.5261092,3.708638)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff7f2a;stroke:none;stroke-width:0.264583"
+       id="path115"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="5.6720343"
+       sodipodi:cy="25.23328"
+       sodipodi:r1="11.337775"
+       sodipodi:r2="9.8188009"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 15.490836,30.902168 -9.8188018,5.668887 -9.8188013,-5.668887 0,-11.337775 9.8188014,-5.668888 9.8188017,5.668888 z"
+       transform="matrix(1.0296241,0,0,1.0296241,7.9764307,-0.21076546)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text433"
+       style="font-size:48px;white-space:pre;shape-inside:url(#rect435);fill:#000000" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.7px;fill:#000000;stroke-width:0.264583"
+       x="53.157143"
+       y="5.9629083"
+       id="text551"><tspan
+         sodipodi:role="line"
+         id="tspan549"
+         style="stroke-width:0.264583"
+         x="53.157143"
+         y="5.9629083"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#999999;stroke-width:0.264583"
+       x="48.721321"
+       y="17.161541"
+       id="text659"><tspan
+         sodipodi:role="line"
+         id="tspan657"
+         style="stroke-width:0.264583"
+         x="48.721321"
+         y="17.161541" /></text>
+  </g>
+</svg>

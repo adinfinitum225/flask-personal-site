@@ -31,6 +31,7 @@ h2 {
 header {
 		background-color: var(--second-color);
 		color: var(--light-text);
+		height: 20vh;
 		padding: 8px
 }
 
@@ -39,6 +40,10 @@ header > h1 {
 		font-family: 'Roboto Mono', monospace;
 		font-size: 3em;
 		font-weight: bold;
+}
+
+#logo {
+	padding-right: 8px;
 }
 
 /*
