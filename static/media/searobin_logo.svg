@@ -69,85 +69,31 @@
          values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
          in="fbSourceGraphic" />
     </filter>
-    <mask
-       maskUnits="userSpaceOnUse"
-       id="mask-powermask-path-effect2706">
-      <path
-         id="mask-powermask-path-effect2706_box"
-         style="fill:#ffffff;fill-opacity:1"
-         d="M -5.1467671,12.895505 H 16.490836 v 24.67555 H -5.1467671 Z" />
-      <g
-         id="g2704"
-         style="fill:#000000"
-         transform="matrix(0.50685355,0,0,0.50685355,-16.588439,9.3137467)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.3072px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.407402;stroke-dasharray:none"
-           x="16.056211"
-           y="37.769211"
-           id="text2698"
-           transform="matrix(1.4071793,0.84111194,0,0.71064148,0,0)"><tspan
-             sodipodi:role="line"
-             id="tspan2696"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.407402;stroke-dasharray:none"
-             x="16.056211"
-             y="37.769211">S</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.146px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.416101;stroke-dasharray:none"
-           x="29.947376"
-           y="108.47861"
-           id="text2702"
-           transform="matrix(1.3841796,-0.79838062,0,0.72244961,0,0)"><tspan
-             sodipodi:role="line"
-             id="tspan2700"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#000000;stroke:none;stroke-width:0.416101;stroke-dasharray:none"
-             x="29.947376"
-             y="108.47861">R</tspan></text>
-      </g>
-    </mask>
-    <filter
-       id="mask-powermask-path-effect2706_inverse"
-       inkscape:label="filtermask-powermask-path-effect2706"
-       style="color-interpolation-filters:sRGB"
-       height="100"
-       width="100"
-       x="-50"
-       y="-50">
-      <feColorMatrix
-         id="mask-powermask-path-effect2706_primitive1"
-         values="1"
-         type="saturate"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         id="mask-powermask-path-effect2706_primitive2"
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
-         in="fbSourceGraphic" />
-    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-3.7068193,-2.4080298)">
-    <path
-       sodipodi:type="star"
-       style="fill:#2c89a0;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       id="path553"
-       inkscape:flatsided="true"
-       sodipodi:sides="6"
-       sodipodi:cx="5.6720343"
-       sodipodi:cy="25.23328"
-       sodipodi:r1="11.337775"
-       sodipodi:r2="9.8188009"
-       sodipodi:arg1="0.52359878"
-       sodipodi:arg2="1.0471976"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 15.490836,30.902168 -9.8188018,5.668887 -9.8188013,-5.668887 0,-11.337775 9.8188014,-5.668888 9.8188017,5.668888 z"
-       transform="matrix(1.9729565,0,0,1.9729565,32.728268,-18.375617)"
-       mask="url(#mask-powermask-path-effect2706)"
-       inkscape:path-effect="#path-effect2706" />
+    <g
+       id="g2704"
+       style="fill:#2c89a0;fill-opacity:1">
+      <g
+         aria-label="S"
+         transform="matrix(1.4071793,0.84111194,0,0.71064148,0,0)"
+         id="text2698"
+         style="font-size:39.3072px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';stroke-width:0.407402" />
+      <g
+         aria-label="R"
+         transform="matrix(1.3841796,-0.79838062,0,0.72244961,0,0)"
+         id="text2702"
+         style="font-size:40.146px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';stroke-width:0.416101">
+        <path
+           id="path1556"
+           d="m 45.452985,108.47861 h -2.861971 l -5.704339,-16.426931 0.372448,-0.548871 h 4.86143 V 80.211746 H 35.122447 V 108.47861 H 32.397694 V 77.800634 h 10.27173 q 0.960524,0 1.568203,0.607678 0.607679,0.607679 0.607679,1.568203 v 11.643909 q 0,2.215087 -2.979586,2.215087 -0.294038,0 -0.862512,-0.0196 -0.568473,-0.0392 -0.823306,-0.0392 2.646342,7.331349 5.273083,14.701909 z m -14.788748,-4.41788 q 0,0.92508 -0.604868,0.14919 -0.585357,-0.73198 -1.54144,-2.88348 L 20.830248,84.026675 q -0.956082,-2.151493 -1.580462,-4.141807 -0.604868,-1.946406 -0.604868,-2.871491 v -7.49507 l 2.712152,6.103218 v 7.268519 l 6.595015,14.840915 V 90.688992 L 19.522952,61.865741 q -0.878034,-2.99534 -0.878034,-4.222493 V 51.65852 q 0,-0.925084 0.604868,-0.149193 0.62438,0.8198 1.580462,2.971293 l 7.687681,17.299766 q 0.956083,2.151495 1.54144,4.053994 0.604868,1.946406 0.604868,2.87149 v 6.872054 L 27.952085,79.474706 V 72.829204 L 21.35707,57.988289 v 6.230158 l 8.468156,28.911065 q 0.839011,2.869768 0.839011,4.09692 z m 15.060331,5.42597 -13.995344,0.015 L 17.733881,78.554134 V 47.591508 l 13.995343,-0.01503 13.995344,30.947598 z"
+           style="fill-rule:evenodd" />
+      </g>
+    </g>
     <path
        sodipodi:type="star"
        style="fill:#0066ff;stroke-width:0.264583"
@@ -211,7 +157,7 @@
          id="tspan549"
          style="stroke-width:0.264583"
          x="53.157143"
-         y="5.9629083"></tspan></text>
+         y="5.9629083" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#999999;stroke-width:0.264583"
