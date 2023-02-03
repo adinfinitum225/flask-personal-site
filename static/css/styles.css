@@ -36,10 +36,9 @@ header {
 }
 
 header > h1 {
-		color: var(--main-color);
+		color: var(--background-color);
 		font-family: 'Roboto Mono', monospace;
 		font-size: 3em;
-		font-weight: bold;
 }
 
 #logo {
