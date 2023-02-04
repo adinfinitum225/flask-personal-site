@@ -58,19 +58,14 @@ header > h1 {
  * Navbar specific properties. Allows dropdown menu and change on hover
  */
 nav ul {
-		list-style: none;
-		margin: 0;
-		flex-direction: column;
-		background-color: var(--main-color);
-}
- 
-#navbar {
-	display: none;
+	list-style: none;
+	margin: 0;
+	flex-direction: column;
+	background-color: var(--main-color);
 	flex-direction: column;
 	box-shadow: 0px 2px 2px var(--main-color);
-	position: sticky;
 }
-
+ 
 nav li a { 
 	color: var(--light-text);
 	text-decoration: none;
@@ -95,13 +90,15 @@ nav li a {
 
 .menu-toggle:focus {
 	outline: none;
-	background-color: var(--accent-color);
 }
 
-.menu-toggle:focus + #navbar {
+#navbar {
+	display: none;
+}
+
+#navbar.clicked {
 	display: flex;
 }
-
 
 /* Only use the hover dropdown if you use a mouse */
 @media (hover: hover){
