@@ -1,4 +1,3 @@
-
 /*
  * Color pallete as variables for ease of change
  */
@@ -37,38 +36,34 @@ h2 {
 header {
 		background-color: var(--second-color);
 		color: var(--light-text);
-		overflow: auto;
-		padding: 8px;
+		height: 20vh;
+		padding: 8px
 }
 
 header > h1 {
 		color: var(--background-color);
+	/*	font-family: 'Roboto Mono', monospace; */
 		font-family: AgencyFB, monospace;
-		font-size: 5em;
-		margin-bottom: 10px;
+		font-weight: lighter;
+		font-stretch: expanded;
+		font-size: 3em;
 }
 
 #logo {
 	padding-right: 8px;
-	height: 8em;
-	float: left;
 }
 
 /*
  * Navbar specific properties. Allows dropdown menu and change on hover
  */
 nav ul {
+		display: flex;
 		list-style: none;
 		margin: 0;
-		flex-direction: column;
+		justify-content: flex-end;
 		background-color: var(--main-color);
-}
- 
-#navbar {
-	display: none;
-	flex-direction: column;
-	box-shadow: 0px 2px 2px var(--main-color);
-	position: sticky;
+		box-shadow: 0px 2px 2px var(--main-color);
+		position: sticky;
 }
 
 nav li a { 
@@ -79,80 +74,55 @@ nav li a {
 	padding: 0.5rem 2rem;
 }
 
-.menu-toggle {
-	font-family: inherit;
-	font-size: 1rem;
-	text-align: left;
-	color: var(--light-text);
-	background-color: var(--main-color);
-	box-shadow: 0px 2px 2px var(--main-color);
-	border: none;
-	display: block;
-	width: 100vw;
-	padding: 0.5rem 0.5rem;
-	position: sticky;
-}
-
-.menu-toggle:focus {
-	outline: none;
-	background-color: var(--accent-color);
-}
-
-.menu-toggle:focus + #navbar {
-	display: flex;
-}
-
-
-/* Only use the hover dropdown if you use a mouse */
-@media (hover: hover){
-	/* Change color on hover for main nav items */
-	nav li:hover > a {
+/* Change color on hover for main nav items */
+nav li:hover > a {
 		background-color: var(--second-color);
 		box-shadow: 0px 2px 2px var(--second-color);
 		z-index: 1;
-	}
-	/* Make the dropdown work */
-	.dropdown {
+}
+
+/* Make the dropdown work */
+.dropdown {
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		padding-left: 0px;
-	}
+}
 
-	.dropdown > ul {
+.dropdown > ul {
 		position: absolute;
 		top: 100%;
 		padding-left: 0;
 		display: none;
-	}
-
-	.dropdown:hover > ul {
-		display: block;
-	}
 }
 
-@media (orientation: landscape) {
-	main {
+.dropdown:hover > ul {
+		display: block;
+}
+
+/* 
+ * Properties for main content area of page
+ */
+main {
 		display: flex;
-	}
+}
 
-	main > * {
+main > * {
 		padding: 10px;
-	}
+}
 
-	main section {
+main section {
 		flex: 4;
-	}
+}
 
-	main aside {
+main aside {
 		flex: 1;
-	}
+}
 
-	#portrait {
+#portrait {
 		float: left;
 		margin: 8px;
 		border-radius: 10% 30% 50% 70%;
-	}
 }
 
 /*
